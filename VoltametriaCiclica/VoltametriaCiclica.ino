@@ -2,7 +2,7 @@
 #include <Adafruit_MCP4725.h>
 #include <Adafruit_ADS1015.h>
 
-Adafruit_ADS1115 ads(0x4A); // Confira o endereco do ADC
+Adafruit_ADS1115 ads; 
 Adafruit_MCP4725 dac;
 int16_t adc0;
 int16_t adc1;
@@ -10,7 +10,7 @@ int16_t adc1;
 void setup(void) {
   Serial.begin(115200); //Mude a velocidade no Monitor Serial
   dac.begin(0x62);
-  ads.begin();
+  ads.begin(0x4A); // Confira o endereco do ADC
   Wire.setClock(400000);
 }
 
