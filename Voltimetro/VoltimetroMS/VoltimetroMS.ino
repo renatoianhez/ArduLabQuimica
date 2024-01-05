@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <Adafruit_ADS1015.h>
 
-Adafruit_ADS1115 ads(0x48);
+Adafruit_ADS1115 ads;
 int16_t adc0;
 int16_t adc1;
 const float FatorConversao = 0.0001875f;
@@ -9,7 +9,7 @@ float volt1, volt2;
 
 void setup(void) {
   Serial.begin(9600);
-  ads.begin();
+  ads.begin(0x48);
 }
 
 void loop(void) {
