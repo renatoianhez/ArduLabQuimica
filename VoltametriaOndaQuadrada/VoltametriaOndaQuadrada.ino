@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <Adafruit_MCP4725.h>
 #include <Adafruit_ADS1015.h>
-Adafruit_ADS1115 ads(0x4A);
+Adafruit_ADS1115 ads;
 Adafruit_MCP4725 dac;
 int Vi = 2000; // Tensao inicial (alterar se necessario)
 int Vf = 3500; // Tensao final (alterar se necessario)
@@ -19,7 +19,7 @@ long Corr2; // Corrente lida ao fim do pulso reverso
 void setup(void) {
   Serial.begin(115200);
   dac.begin(0x62);
-  ads.begin();
+  ads.begin(0x4A);
   Wire.setClock(400000);
 }
 
