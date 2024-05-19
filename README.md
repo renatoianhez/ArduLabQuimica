@@ -1,8 +1,12 @@
 # ArduLabQuimica
+
 Arduino no Laboratório de Química - Banco de programas
 
 
+
+
 ERRATA
+
 Alguns erros foram detectados no livro, cito abaixo:
 
 1. Página 63: A fórmula do resistor shunt está com a legenda invertida:
