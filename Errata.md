@@ -1,1 +1,3 @@
 1. Página 63: A fórmula do resistor shunt está com a legenda invertida: ![image](https://github.com/renatoianhez/ArduLabQuimica/assets/34423009/39266a5c-70f2-4a61-b7c5-370ded65806d)
+2. Página 73: O esquema do Espectrofotômetro está com os feixes luminosos invertidos. O que entra na amostra é a Radiação Incidente. O que sai da amostra é a Radiação Eferente: ![image](https://github.com/renatoianhez/ArduLabQuimica/assets/34423009/7a7f2ac3-762e-4d06-a980-7c3e75dce5a3)
+3. Página 107: A figura está sobreposta ao texto. O correto é: ![image](https://github.com/renatoianhez/ArduLabQuimica/assets/34423009/e4691993-e38b-436f-9e4f-9a1b2d7e3165)
