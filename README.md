@@ -2,7 +2,7 @@
 
 Arduino no Laboratório de Química - Banco de programas
 
-
+[Se quiser adquirir o livro](https://www.amazon.com.br/Arduino-No-Laborat%C3%B3rio-Qu%C3%ADmica-instrumental/dp/6550793777/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&sr=8-1&ufe=app_do%3Aamzn1.fos.6d798eae-cadf-45de-946a-f477d47705b9)
 
 
 ERRATA
